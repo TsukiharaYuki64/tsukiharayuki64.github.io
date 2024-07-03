@@ -48,7 +48,7 @@ header {
     color: #00FF00;
 }
 
-/* Styles for the pie chart canvas */
+/* Pie Chart */
 #interestsChart {
     margin-top: 20px;
     max-width: 80%; /* Adjust as needed */
