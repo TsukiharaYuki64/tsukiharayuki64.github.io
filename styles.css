@@ -10,16 +10,6 @@ header {
     margin-bottom: 20px;
 }
 
-.ascii-art {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.ascii-art p {
-    font-size: 18px;
-}
-
 .description {
     margin-bottom: 20px;
 }
@@ -29,7 +19,6 @@ header {
 }
 
 .graphs {
-    text-align: left;
     margin-top: 40px;
 }
 
@@ -57,4 +46,12 @@ header {
     font-weight: bold;
     margin-left: 10px;
     color: #00FF00;
+}
+
+/* Styles for the pie chart canvas */
+#interestsChart {
+    margin-top: 20px;
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+    border: 1px solid #00FF00;
 }
