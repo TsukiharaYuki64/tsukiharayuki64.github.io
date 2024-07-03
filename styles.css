@@ -1,49 +1,60 @@
-/* styles.css */
 body {
-    background-color: #000;
-    color: #0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    background-color: #000;
-    color: #0f0;
+    background-color: black;
+    color: #00FF00; /* Green text */
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px;
-    font-size: 2em;
 }
 
-.interests {
-    background-color: #000;
-    color: #0f0;
-    padding: 20px;
-    font-size: 1.5em;
+header {
+    margin-bottom: 20px;
 }
 
-.interests ul {
+.ascii-art {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.ascii-art p {
+    font-size: 18px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.description a {
+    color: #00FF00;
+}
+
+.graphs {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.activity-graph {
+    border: 1px solid #00FF00;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.activity-graph h2 {
+    color: #00FF00;
+    margin-bottom: 10px;
+}
+
+.activity-graph ul {
     list-style-type: none;
     padding: 0;
 }
 
-.interests li {
-    margin: 10px 0;
+.activity-graph li {
+    margin-bottom: 5px;
 }
 
-.photo-gallery {
-    background-color: #000;
-    color: #0f0;
-    padding: 20px;
-    font-size: 1.5em;
-}
-
-.photo-gallery .photos {
-    display: flex;
-    justify-content: space-around;
-}
-
-.photo-gallery img {
-    max-width: 100%;
-    height: auto;
+.activity-graph li span {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #00FF00;
 }
