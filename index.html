@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Page</title>
+    <title>My Personal Page with Interests Pie Chart</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include your custom script -->
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
+   header>
         <h1>Welcome to My Page</h1>
     </header>
     <section class="content">
@@ -47,8 +52,8 @@
             </pre>
             <p>I am 月腹ゆき</p>
         </div>
-        <div class="description">
-            <p>Soon to be Software Engineer. Connect with me on <a href="https://www.linkedin.com/">LinkedIn</a>.</p>
+       <div class="description">
+            <p>I am 月腹ゆき. Soon to be Software Engineer. Connect with me on <a href="https://www.linkedin.com/">LinkedIn</a>.</p>
         </div>
         <div class="graphs">
             <!-- Graphs will go here -->
@@ -62,6 +67,9 @@
                     <li>Communication: <span id="communication-percent">10%</span></li>
                 </ul>
             </div>
+
+            <!-- Pie chart canvas -->
+            <canvas id="interestsChart" width="400" height="400"></canvas>
         </div>
     </section>
 </body>
