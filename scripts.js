@@ -1,3 +1,4 @@
+/* I don't know what the fuck im going here */
 document.addEventListener('DOMContentLoaded', function() {
     var ctx = document.getElementById('interestsChart').getContext('2d');
     var interestsChart = new Chart(ctx, {
