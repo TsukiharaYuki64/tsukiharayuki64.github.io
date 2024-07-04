@@ -10,6 +10,16 @@ header {
     margin-bottom: 20px;
 }
 
+.ascii-art {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.ascii-art p {
+    font-size: 18px;
+}
+
 .description {
     margin-bottom: 20px;
 }
@@ -34,6 +44,12 @@ header {
     margin-bottom: 10px;
 }
 
+.activities-and-chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .activity-graph ul {
     list-style-type: none;
     padding: 0;
@@ -50,7 +66,6 @@ header {
 }
 
 #interestsChart {
-    width: 200px; 
-    height: 200px; 
-    margin: 0 auto; 
+    width: 150px; /* Adjust the width */
+    height: 150px; /* Adjust the height */
 }
