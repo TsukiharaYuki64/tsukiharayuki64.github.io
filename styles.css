@@ -4,6 +4,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px;
+    position: relative; /* Ensure body is relative for absolute positioning inside it */
 }
 
 header {
@@ -11,17 +12,25 @@ header {
 }
 
 .ascii-art {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 14px; /* Adjust the font size as desired */
+    line-height: 1; /* Adjust line height as needed */
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #000;
+    color: #00FF00; /* Green text */
+    padding: 2px;
+    border: 1px solid #00FF00; /* Green border */
+    border-radius: 3px;
 }
 
-.ascii-art p {
-    font-size: 18px;
+.ascii-art pre {
+    margin: 0; /* Remove default margin for <pre> */
 }
 
 .description {
     margin-bottom: 20px;
+    position: relative;
 }
 
 .description a {
@@ -44,6 +53,12 @@ header {
     margin-bottom: 10px;
 }
 
+.activities-and-chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .activity-graph ul {
     list-style-type: none;
     padding: 0;
@@ -59,13 +74,7 @@ header {
     color: #00FF00;
 }
 
-.activities-and-chart {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-canvas#interestsChart {
-    width: 200px;
-    height: 200px;
+#interestsChart {
+    width: 150px; /* Adjust the width */
+    height: 150px; /* Adjust the height */
 }
