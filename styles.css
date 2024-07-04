@@ -12,7 +12,7 @@ header {
 }
 
 .ascii-art {
-    font-size: 5px; /* Adjust the font size as desired */
+    font-size: 10px; /* Adjust the font size as desired */
     line-height: 1; /* Adjust line height as needed */
     position: relative;
     top: 20px;
