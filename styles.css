@@ -50,7 +50,7 @@ header {
 }
 
 #interestsChart {
-    width: 200px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height */
-    margin: 0 auto; /* Center the chart */
+    width: 200px; 
+    height: 200px; 
+    margin: 0 auto; 
 }
