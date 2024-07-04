@@ -1,27 +1,35 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var ctx = document.getElementById('interestsChart').getContext('2d');
-    var interestsChart = new Chart(ctx, {
+document.addEventListener("DOMContentLoaded", function () {
+    const ctx = document.getElementById('interestsChart').getContext('2d');
+    const interestsChart = new Chart(ctx, {
         type: 'pie',
         data: {
             labels: ['Gaming', 'Coding', 'Entertainment', 'Research', 'Anime'],
             datasets: [{
-                label: 'My Interests',
-                data: [10, 30, 20, 30, 10],
+                data: [10, 30, 20, 30, 10], // Percentages for each activity
                 backgroundColor: [
-                    '#FF6384', // Gaming
-                    '#36A2EB', // Coding
-                    '#FFCE56', // Entertainment
-                    '#4BC0C0', // Research
-                    '#9966FF'  // Anime
+                    'rgba(0, 255, 0, 0.2)', // Lighter green
+                    'rgba(0, 128, 0, 0.2)', // Darker green
+                    'rgba(0, 255, 0, 0.4)', // Lighter green
+                    'rgba(0, 128, 0, 0.4)', // Darker green
+                    'rgba(0, 255, 0, 0.6)'  // Lighter green
+                ],
+                borderColor: [
+                    'rgba(0, 255, 0, 1)',   // Green
+                    'rgba(0, 255, 0, 1)',   // Green
+                    'rgba(0, 255, 0, 1)',   // Green
+                    'rgba(0, 255, 0, 1)',   // Green
+                    'rgba(0, 255, 0, 1)'    // Green
                 ],
                 borderWidth: 1
             }]
         },
         options: {
-            responsive: true,
-            maintainAspectRatio: true,
-            animation: {
-                duration: 0 // Disable animations to improve performance
+            responsive: false, // Disable responsive resizing
+            maintainAspectRatio: false, // Maintain aspect ratio
+            plugins: {
+                legend: {
+                    display: false // Disable the legend
+                }
             }
         }
     });
