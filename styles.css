@@ -44,12 +44,6 @@ header {
     margin-bottom: 10px;
 }
 
-.activities-and-chart {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .activity-graph ul {
     list-style-type: none;
     padding: 0;
@@ -65,7 +59,13 @@ header {
     color: #00FF00;
 }
 
-#interestsChart {
-    width: 150px; /* Adjust the width */
-    height: 150px; /* Adjust the height */
+.activities-and-chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+canvas#interestsChart {
+    width: 200px;
+    height: 200px;
 }
