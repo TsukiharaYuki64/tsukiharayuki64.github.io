@@ -12,7 +12,7 @@ header {
 }
 
 .ascii-art {
-    font-size: 14px; /* Adjust the font size as desired */
+    font-size: 5px; /* Adjust the font size as desired */
     line-height: 1; /* Adjust line height as needed */
     position: relative;
     top: 20px;
@@ -20,7 +20,6 @@ header {
     background-color: #000;
     color: #00FF00; /* Green text */
     padding: 2px;
-    border: 1px solid #00FF00; /* Green border */
     border-radius: 3px;
 }
 
