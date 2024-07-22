@@ -24,7 +24,7 @@ header {
 }
 
 .ascii-art pre {
-    margin: 0; /* Remove default margin for <pre> */
+    margin: auto; 
 }
 
 .description {
